@@ -1,0 +1,7 @@
+{
+  "name": "Always Christmas",
+  "modId": "alwayschristmas",
+  "mixinConfigs": [
+    "christmas.mixins.json"
+  ]
+}
