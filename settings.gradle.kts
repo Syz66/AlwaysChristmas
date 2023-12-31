@@ -1,4 +1,4 @@
-rootProject.name = "ModTemplate"
+rootProject.name = "AlwaysChristmas"
 
 pluginManagement {
     repositories {

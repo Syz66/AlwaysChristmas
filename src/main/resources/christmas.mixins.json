@@ -1,7 +1,8 @@
 {
+  "required": true,
   "compatibilityLevel": "JAVA_8",
-  "package": "meeeeeeeeee.ballsssssssss.christmaz",
+  "package": "me.zircta.alwayschristmas",
   "mixins": [
-    "segsgkjewkjfwjkfewjkfwe"
+    "TileEntityChestRendererMixin"
   ]
 }

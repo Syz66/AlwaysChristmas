@@ -1,4 +1,4 @@
-package meeeeeeeeee.ballsssssssss.christmaz;
+package me.zircta.alwayschristmas;
 
 import net.minecraft.client.renderer.tileentity.TileEntityChestRenderer;
 import net.minecraft.tileentity.TileEntityChest;
@@ -9,11 +9,11 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = TileEntityChestRenderer.class)
-public class segsgkjewkjfwjkfewjkfwe {
+public class TileEntityChestRendererMixin {
     @Shadow public boolean isChristmas;
 
     @Inject(method = "renderTileEntityAt(Lnet/minecraft/tileentity/TileEntityChest;DDDFI)V", at = @At("HEAD"))
-    public void fgrfpgblkergtergehrgjehrggggg(TileEntityChest ghrthehrtrtherthertherth, double bbfgrthrhtbfggfhdfgh, double kjbfgkjgshkgsjhgsda, double ddddgjdrdrtjjrdt, float drtjdrjtjdrtjtrdjdrtjdrt, int fgbgbbgfbfgbgf, CallbackInfo ci) {
+    public void onRenderTile(TileEntityChest te, double x, double y, double z, float partialTicks, int destroyStage, CallbackInfo ci) {
         isChristmas = true;
     }
 }
